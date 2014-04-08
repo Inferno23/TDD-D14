@@ -14,4 +14,5 @@ Now we test actually calculating paths from the CityCameraPlanner
 X A-B-C, path from A to C has all three
 X A-B-C, path from B to C has two
 X A-B-C-D-A, path from A to D has two paths
-- Square with diagonal from B to D, A to D has three paths
+X Square with diagonal from B to D, A to D has three paths
+X Example from Pollice's pdf
