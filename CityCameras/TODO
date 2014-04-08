@@ -1,0 +1,17 @@
+X Three cities in a line - middle has camera
+X Three cities in a triangle - no cameras
+X Four cities in a line - two cameras in middle cities
+X Two city loops with two connections - no cameras (interlocking triangles)
+- Two city loops with one connection - one camera in connection
+
+Calculating paths is too large a task on its own, so it will have subtasks that follow
+
+But first, a new class is deemed to be useful, so we test the Path class
+X Get start and end points from a path
+X Path contains point, true and false cases
+
+Now we test actually calculating paths from the CityCameraPlanner
+X A-B-C, path from A to C has all three
+X A-B-C, path from B to C has two
+X A-B-C-D-A, path from A to D has two paths
+- Square with diagonal from B to D, A to D has three paths
